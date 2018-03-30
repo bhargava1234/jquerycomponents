@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+<div class="menu" id="my_menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Category 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Category 1</a>
+      <a href="#">Category 2</a>
+      <a href="#">Category 3</a>
+    </div>
+  </div> 
+ 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div class="main_container">
+		<div class="acco_top">Section 1<span class="plusminus">+</span></div>
+			<div class="acco_inner" style="display: none;">
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+		<div class="acco_top">Section 2<span class="plusminus">+</span></div>
+			<div class="acco_inner" style="display: none;">
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+		<div class="acco_top">Section 3<span class="plusminus">+</span></div>
+			<div class="acco_inner" style="display: none;">
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+ 
+	</div>
+	
+		
+
+		
+<div class="jquery_pop">
+<p style="color: rgb(74, 74, 74);background-color: rgba(0, 0, 0, 0);font-family: Roboto, sans-serif;font-weight: 700;font-style: normal;font-size: 26px;text-align: center;border-width: 0px;border-color: rgb(0, 0, 0);border-style: solid;/* border-radius: 0px; */line-height: 1.5;/* box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px inset; */text-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;padding: 0px;margin: 0px;letter-spacing: normal;">10 Interesting jQuery Facts and Stat!</p>
+ <ol><li>We know of 19,909,315 websites that are using JQuery!</li>
+<li> 216,123 websites within the top million most visited sites use jQuery!</li>
+<li> jQuery 19,909,315 websites vs MooTools 2,083,324 websites.</li>
+<li> jQuery 19,909,315 websites vs Prototype 1,216,637 websites.</li>
+<li> jQuery 19,909,315 websites vs script.aculo.us 1,008,167 websites.</li>
+<li> jQuery is a cross-browser JavaScript library designed to simplify the client-side scripting of HTML.</li>
+<li> jQuery was released in January 2006 at BarCamp NYC by John Resig.</li>
+<li> jQuery is the most popular JavaScript library in use today. – wikipedia</li>
+<li> There is even a a jQuery-based Commodore 64 emulator!</li>
+<li> There is at least 4,830 official jquery plugins on the jquery plugin website!</li>
+</ol>
+ 
+ <span class="btn-close">close</span>
+</div>
+	<div class="footer">
+  <p>Copyright@Ayush bhargava</p>
+</div>
+	<script>
+function myFunction() {
+    var x = document.getElementById("my_menu");
+    if (x.className === "menu") {
+        x.className += " responsive";
+    } else {
+        x.className = "menu";
+    }
+}
+</script>
+
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
